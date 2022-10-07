@@ -83,6 +83,16 @@ For each CAM Customer, administrators of the first, Optimized Azure Subscription
 
 ![Admin Credentials](../../images/Admin-Creds.png) 
 
+**Temporal Access to Azure Portal via CAM**
+
+Access to the Azure portal for an Azure provider is possible directly through CAM. Users will simply click on the portal access link while in the provider screens in CAM. This temporal user will be created with contributor level access, and will be available to use for a 24 hour period. After 24 hours, this user will be deleted and the Azure portal is no longer accessible through the temporal user created.
+
+![Screen Shot 2022-09-26 at 3 05 36 PM](https://user-images.githubusercontent.com/88166299/194641837-d3c24770-c65d-442a-abb3-77a8d837dac3.png)
+
+Here is an example of the user being created and confirmation of user through the CAM portal.
+
+![Screen Shot 2022-10-07 at 2 46 22 PM](https://user-images.githubusercontent.com/88166299/194641936-ead8f701-c3c0-4ba7-ab05-d201fa5d5e5d.png)
+
 ### Contacting Cloud Application Manager Support
 
 If you are experiencing an issue with [Cloud Application Manager](https://www.ctl.io/cloud-application-manager/), please review the [troubleshooting tips](../Troubleshooting/troubleshooting-tips.md), or contact [Cloud Application Manager support](mailto:incident@CenturyLink.com) with details and screenshots where possible.
